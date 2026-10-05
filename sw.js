@@ -1,8 +1,8 @@
 // Service worker: la app abre sin señal y los mapas ya vistos quedan guardados.
-const VERSION = "mv-v1";
+const VERSION = "mv-v2";
 const SHELL = [
   "./", "index.html", "css/styles.css", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png", "icons/icon-512.png",
-  "js/app.js", "js/api.js", "js/config.js", "js/colors.js", "js/geo.js", "js/overpass.js",
+  "js/app.js", "js/api.js", "js/config.js", "js/colors.js", "js/geo.js", "js/overpass.js", "js/avellaneda.js",
   "https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js",
   "https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css",
   "https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js",
