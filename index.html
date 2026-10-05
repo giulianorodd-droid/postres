@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <meta name="theme-color" content="#7b3fe4" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Mapa Ventas" />
+  <title>Mapa de Ventas</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- ============ INGRESO ============ -->
+  <section id="login" class="screen hidden">
+    <div class="login-card">
+      <img src="icons/icon.svg" alt="" class="login-logo" />
+      <h1 id="login-title">Mapa de Ventas</h1>
+      <p class="muted">Ingresá el PIN de tu grupo</p>
+      <form id="login-form" autocomplete="off">
+        <input id="pin" type="password" inputmode="numeric" pattern="[0-9]*" placeholder="PIN" maxlength="12" required />
+        <button type="submit" class="btn primary block">Entrar</button>
+      </form>
+      <p id="login-error" class="error"></p>
+      <p id="demo-hint" class="demo-hint hidden">
+        <b>Modo demo</b> (todavía no conectaste Supabase).<br />PIN de administrador: <code>246810</code>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ APP ============ -->
+  <section id="app" class="screen hidden">
+    <header class="topbar">
+      <button id="btn-menu" class="icon-btn" aria-label="Menú">☰</button>
+      <div id="me-chip" class="chip"><span class="dot"></span><span class="label"></span></div>
+      <div class="spacer"></div>
+      <div id="sync" class="sync" title="Estado de conexión"><span class="sync-dot"></span><span class="sync-text"></span></div>
+    </header>
+
+    <div id="map"></div>
+    <div id="crosshair" class="crosshair hidden">＋</div>
+
+    <div class="fab-col">
+      <button id="btn-locate" class="fab" title="Mi ubicación" aria-label="Mi ubicación">◎</button>
+      <button id="btn-refresh" class="fab" title="Actualizar" aria-label="Actualizar">⟳</button>
+    </div>
+
+    <div class="bottom-actions" id="bottom-actions">
+      <button id="btn-search" class="btn">🔎 Buscar locales aquí</button>
+      <button id="btn-add" class="btn primary">＋ Local</button>
+    </div>
+    <div class="bottom-actions hidden" id="add-actions">
+      <button id="btn-add-cancel" class="btn">Cancelar</button>
+      <button id="btn-add-confirm" class="btn primary">Poner el local acá</button>
+    </div>
+
+    <div id="trail-filter" class="trail-filter">
+      <button data-range="today" class="active">Hoy</button>
+      <button data-range="7">7 días</button>
+      <button data-range="30">30 días</button>
+      <button data-range="all">Todo</button>
+    </div>
+  </section>
+
+  <!-- ============ PANEL LATERAL ============ -->
+  <aside id="panel" class="panel">
+    <div class="panel-head">
+      <h2>Menú</h2>
+      <button class="icon-btn" data-close="panel" aria-label="Cerrar">✕</button>
+    </div>
+    <div class="panel-body">
+      <h3>Rastros de grupos</h3>
+      <div id="group-toggles" class="toggles"></div>
+
+      <h3>Locales</h3>
+      <div id="status-toggles" class="toggles"></div>
+
+      <h3>Resumen</h3>
+      <div id="stats" class="stats"></div>
+
+      <div id="admin-section" class="hidden">
+        <h3>Administración · Grupos</h3>
+        <div id="groups-admin"></div>
+        <button id="btn-new-group" class="btn primary block">＋ Nuevo grupo</button>
+
+        <h3>Cadenas excluidas</h3>
+        <p class="muted small">Un nombre por línea. Los locales que coincidan no se agregan al buscar.</p>
+        <textarea id="blacklist" rows="8"></textarea>
+        <button id="btn-save-blacklist" class="btn block">Guardar lista</button>
+
+        <h3>PIN de administrador</h3>
+        <input id="admin-old" type="password" inputmode="numeric" placeholder="PIN actual" />
+        <input id="admin-new" type="password" inputmode="numeric" placeholder="PIN nuevo (mín. 6 dígitos)" />
+        <button id="btn-admin-pin" class="btn block">Cambiar PIN</button>
+      </div>
+
+      <h3>Cuenta</h3>
+      <button id="btn-logout" class="btn block">Salir</button>
+      <button id="btn-reset-demo" class="btn block danger hidden">Reiniciar datos de demo</button>
+      <p class="muted small" id="version-info"></p>
+    </div>
+  </aside>
+  <div id="backdrop" class="backdrop hidden"></div>
+
+  <!-- ============ FICHA DE LOCAL ============ -->
+  <div id="sheet" class="sheet">
+    <div class="sheet-grip"></div>
+    <div class="sheet-head">
+      <div>
+        <h2 id="pl-name"></h2>
+        <p id="pl-meta" class="muted small"></p>
+      </div>
+      <button class="icon-btn" data-close="sheet" aria-label="Cerrar">✕</button>
+    </div>
+    <div id="pl-status-buttons" class="status-grid"></div>
+    <label class="small muted" for="pl-note">Nota</label>
+    <textarea id="pl-note" rows="2" placeholder="Ej.: hablar con el dueño los martes"></textarea>
+    <div class="row">
+      <button id="pl-save-note" class="btn">Guardar nota</button>
+      <a id="pl-nav" class="btn" target="_blank" rel="noopener">🧭 Cómo llegar</a>
+    </div>
+    <h3>Historial</h3>
+    <ul id="pl-history" class="history"></ul>
+  </div>
+
+  <!-- ============ MODAL GENÉRICO ============ -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2 id="modal-title"></h2>
+        <button class="icon-btn" data-close="modal" aria-label="Cerrar">✕</button>
+      </div>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
