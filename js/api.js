@@ -109,50 +109,11 @@ class DemoApi {
   seed() {
     this.db = { seq: {}, adminPin: "246810", blacklist: DEFAULT_BLACKLIST, groups: [], places: [], events: [],
                 points: [], tracks: [], sessions: {} };
-    const colors = [];
-    const mk = (name) => {
-      const color = uniqueRandomColor(colors); colors.push(color);
-      const id = this.seq("g");
-      const g = { id, name, color, active: true, ot_user: "grupo" + id, pin: String(100000 + Math.floor(Math.random() * 899999)) };
-      this.db.groups.push(g);
-      return g;
-    };
-    const g1 = mk("Grupo 1");
-    const [lon0, lat0] = CONFIG.CENTER;
-    // recorridos simulados: hoy (en vivo), ayer (pendiente de compactar)
-    const now = Math.floor(Date.now() / 1000);
-    this.fakeWalk(g1.id, lon0 - 0.004, lat0 + 0.002, now - 2 * 3600, 2 * 3600);
-    this.fakeWalk(g1.id, lon0 + 0.003, lat0 - 0.003, now - 26 * 3600, 90 * 60);
-    // locales de ejemplo
-    const sample = [
-      ["Café del Centro", "cafe", 0.001, 0.001, "cliente"], ["Kiosco La Esquina", "kiosk", -0.002, 0.0015, "no_interesa"],
-      ["Panadería San Martín", "bakery", 0.0025, -0.001, "pendiente"], ["Resto Mitre", "restaurant", -0.001, -0.002, "cerrado"],
-      ["Almacén Don José", "convenience", 0.003, 0.0025, "pendiente"], ["Heladería Artesanal Pepe", "ice_cream", -0.0035, -0.0005, "inexistente"],
-    ];
-    for (const [name, category, dx, dy, status] of sample) {
-      const p = { id: this.seq("p"), osm_id: null, name, category, address: null, lat: lat0 + dy, lon: lon0 + dx, status,
-                  note: null, status_at: status === "pendiente" ? null : new Date().toISOString(),
-                  status_group: status === "pendiente" ? null : g1.id, created_group: null };
-      this.db.places.push(p);
-      if (status !== "pendiente") this.db.events.push({ id: this.seq("e"), place_id: p.id, group_id: g1.id, status, note: null, at: p.status_at });
-    }
     this.save();
     return this.db;
   }
 
-  fakeWalk(groupId, lon, lat, startTs, durS) {
-    const block = 0.0011; // ~ una cuadra
-    let dir = Math.floor(Math.random() * 4), along = 0, ts = startTs;
-    const dirs = [[1, 0], [0, 1], [-1, 0], [0, -1]];
-    while (ts < startTs + durS) {
-      const step = 0.00018; // ~18 m cada 15 s (caminando)
-      lon += dirs[dir][0] * step; lat += dirs[dir][1] * step; along += step;
-      if (along >= block) { along = 0; if (Math.random() < 0.5) dir = (dir + (Math.random() < 0.5 ? 1 : 3)) % 4; }
-      this.db.points.push({ id: this.seq("pt"), group_id: groupId, device: "demo", ts,
-        lat: lat + (Math.random() - 0.5) * 0.00006, lon: lon + (Math.random() - 0.5) * 0.00006, acc: 8 + Math.random() * 10 });
-      ts += 15;
-    }
-  }
+
 
   sess() {
     const s = this.db.sessions[this.token];
@@ -165,13 +126,20 @@ class DemoApi {
   dayOf(ts) { return localDay(new Date(ts * 1000)); }
 
   hasSession() { return !!this.token; }
-  login(pin) {
+  login(pin, color) {
     return this.guard(() => {
       const tok = Math.random().toString(36).slice(2) + Date.now().toString(36);
-      if (pin === this.db.adminPin) this.db.sessions[tok] = { is_admin: true, group_id: null };
-      else {
-        const g = this.db.groups.find((x) => x.active && x.pin === pin);
-        if (!g) throw new Error("PIN_INCORRECTO");
+      if (pin === this.db.adminPin) {
+        this.db.sessions[tok] = { is_admin: true, group_id: null };
+      } else {
+        const name = pin.trim();
+        let g = this.db.groups.find((x) => x.name.toLowerCase() === name.toLowerCase());
+        if (!g) {
+          g = { id: this.seq("g"), name, color: color || "#ff0000", active: true, ot_user: "grupo" + Date.now(), pin: "000000" };
+          this.db.groups.push(g);
+        } else if (color) {
+          g.color = color;
+        }
         this.db.sessions[tok] = { is_admin: false, group_id: g.id };
       }
       this.save();

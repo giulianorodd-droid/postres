@@ -23,7 +23,11 @@
       <h1 id="login-title">Mapa de Ventas</h1>
       <p class="muted">Ingresá el PIN de tu grupo</p>
       <form id="login-form" autocomplete="off">
-        <input id="pin" type="password" inputmode="numeric" pattern="[0-9]*" placeholder="PIN" maxlength="12" required />
+        <input id="pin" type="text" placeholder="Tu grupo o nombre (ej: Amarillo, Juan)" maxlength="30" required />
+        <div style="margin: 15px 0; display: flex; align-items: center; justify-content: center; gap: 10px;">
+          <label for="color">Color del rastro:</label>
+          <input type="color" id="color" value="#00aaff" style="width: 50px; height: 35px; border: none; padding: 0; cursor: pointer;" />
+        </div>
         <button type="submit" class="btn primary block">Entrar</button>
       </form>
       <p id="login-error" class="error"></p>

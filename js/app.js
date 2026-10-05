@@ -324,6 +324,7 @@ function initMap() {
   });
 
   map.on("load", () => {
+    S.geolocate.trigger();
     map.addSource("tracks", { type: "geojson", data: emptyFC() });
     map.addSource("places", { type: "geojson", data: emptyFC() });
 
@@ -757,7 +758,9 @@ function bindUI() {
     const btn = e.submitter || $("login-form").querySelector("button");
     btn.disabled = true;
     try {
-      await api.login($("pin").value.trim());
+      const pin = $("pin").value.trim();
+      const color = $("color") ? $("color").value : "#ff0000";
+      await api.login(pin, color);
       S.queue = JSON.parse(localStorage.getItem("mv_queue") || "[]");
       await loadState();
       showApp();
