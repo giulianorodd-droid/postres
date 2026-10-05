@@ -1,0 +1,2552 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-05T22:48:01Z",
+    "timestamp_areas_base": "2026-10-04T19:59:06Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 910676032,
+  "lat": -34.6614541,
+  "lon": -58.3665530,
+  "tags": {
+    "addr:street": "Avenida Bartolomé Mitre",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "es:McDonald's",
+    "cuisine": "burger",
+    "name": "McDonald's",
+    "name:es": "McDonald's",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 911328406,
+  "lat": -34.6614313,
+  "lon": -58.3681600,
+  "tags": {
+    "brand": "Carrefour Express",
+    "brand:wikidata": "Q2940190",
+    "brand:wikipedia": "es:Carrefour Express",
+    "name": "Carrefour Express",
+    "name:es": "Carrefour Express",
+    "operator": "Groupe Carrefour",
+    "operator:wikidata": "Q3117359",
+    "operator:wikipedia": "es:Carrefour",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 915078319,
+  "lat": -34.6626371,
+  "lon": -58.3643126,
+  "tags": {
+    "addr:street": "Avenida Bartolomé Mitre",
+    "amenity": "restaurant",
+    "name": "Pertutti"
+  }
+},
+{
+  "type": "node",
+  "id": 1663894407,
+  "lat": -34.6463382,
+  "lon": -58.3477497,
+  "tags": {
+    "addr:street": "Avenida Nicolás Avellaneda",
+    "fixme": "name",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 1663894415,
+  "lat": -34.6484311,
+  "lon": -58.3464391,
+  "tags": {
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 2324527847,
+  "lat": -34.6651664,
+  "lon": -58.3623665,
+  "tags": {
+    "addr:street": "Italia",
+    "brand": "Coto",
+    "brand:wikidata": "Q5175411",
+    "brand:wikipedia": "es:Coto (supermercado)",
+    "name": "Coto",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 2385930232,
+  "lat": -34.6729785,
+  "lon": -58.3620189,
+  "tags": {
+    "addr:city": "Avellaneda",
+    "addr:housenumber": "567",
+    "addr:postcode": "1872",
+    "addr:street": "General Güemes",
+    "name": "Autoservicio Lo de Sebas",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su 10:00-14:00",
+    "phone": "+54 11 2553-2597",
+    "shop": "convenience",
+    "website": "https://www.instagram.com/lodesebasl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2604904566,
+  "lat": -34.6768894,
+  "lon": -58.3724091,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Como en Casa"
+  }
+},
+{
+  "type": "node",
+  "id": 2971994134,
+  "lat": -34.6769024,
+  "lon": -58.3826788,
+  "tags": {
+    "name": "Los 2 Boulevares",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 3105435046,
+  "lat": -34.6729352,
+  "lon": -58.3570104,
+  "tags": {
+    "name": "Panadería Las Nectarinas",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 3305637249,
+  "lat": -34.6798226,
+  "lon": -58.3337882,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "es:McDonald's",
+    "cuisine": "burger",
+    "name": "McDonald's",
+    "name:es": "McDonald's",
+    "smoking": "no",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3305637250,
+  "lat": -34.6795334,
+  "lon": -58.3330787,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3734468109,
+  "lat": -34.7225246,
+  "lon": -58.3385452,
+  "tags": {
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 3811665124,
+  "lat": -34.7022388,
+  "lon": -58.3180258,
+  "tags": {
+    "name": "kiosco marcelo",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 3811665125,
+  "lat": -34.7030109,
+  "lon": -58.3164543,
+  "tags": {
+    "addr:city": "Wilde",
+    "addr:housenumber": "100",
+    "addr:postcode": "1875",
+    "addr:street": "Las Flores",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop;sandwich",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Bar 1890",
+    "opening_hours": "Mo-Tu 07:00-02:00, Fr-Sa 08:00-04:00",
+    "phone": "+54 11 4207-1073"
+  }
+},
+{
+  "type": "node",
+  "id": 3811670783,
+  "lat": -34.7040646,
+  "lon": -58.3168778,
+  "tags": {
+    "addr:city": "Wilde",
+    "addr:housenumber": "6328",
+    "addr:postcode": "1875",
+    "addr:street": "Avenida Bartolomé Mitre",
+    "brand": "Carrefour Express",
+    "brand:wikidata": "Q2940190",
+    "brand:wikipedia": "es:Carrefour Express",
+    "name": "Carrefour Express",
+    "name:es": "Carrefour Express",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 3811678764,
+  "lat": -34.7042505,
+  "lon": -58.3165874,
+  "tags": {
+    "name": "Ceccia",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 3814166170,
+  "lat": -34.6625289,
+  "lon": -58.3336877,
+  "tags": {
+    "name": "Kiosco",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 3814169458,
+  "lat": -34.6580141,
+  "lon": -58.3346399,
+  "tags": {
+    "name": "Kiosco",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 3814186097,
+  "lat": -34.6632138,
+  "lon": -58.3377895,
+  "tags": {
+    "name": "Kiosco",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 3814193116,
+  "lat": -34.6639507,
+  "lon": -58.3374522,
+  "tags": {
+    "name": "Panadería",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 3814244486,
+  "lat": -34.6628631,
+  "lon": -58.3377093,
+  "tags": {
+    "name": "Almacén y casa de comidas",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 3814259481,
+  "lat": -34.6600556,
+  "lon": -58.3349784,
+  "tags": {
+    "name": "Almacén",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 3814259674,
+  "lat": -34.6602665,
+  "lon": -58.3322986,
+  "tags": {
+    "name": "Kiosco",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 3814284678,
+  "lat": -34.6581133,
+  "lon": -58.3347937,
+  "tags": {
+    "name": "Kiosco y almacén",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 3814292678,
+  "lat": -34.6601847,
+  "lon": -58.3357203,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Casa de comidas, almacén y verdulería"
+  }
+},
+{
+  "type": "node",
+  "id": 3814813810,
+  "lat": -34.6770497,
+  "lon": -58.3482254,
+  "tags": {
+    "addr:city": "Sarandí",
+    "addr:housenumber": "2660",
+    "addr:postcode": "1872",
+    "addr:street": "Avenida Bartolomé Mitre",
+    "amenity": "cafe",
+    "cuisine": "café",
+    "internet_access": "yes",
+    "name": "Sancho",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "node",
+  "id": 4176167351,
+  "lat": -34.6778253,
+  "lon": -58.3468871,
+  "tags": {
+    "addr:city": "Sarandí",
+    "addr:housenumber": "2772",
+    "addr:postcode": "1872",
+    "addr:street": "Avenida Bartolomé Mitre",
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Pizzeria Los Tres Ases",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4176192038,
+  "lat": -34.6694327,
+  "lon": -58.3556403,
+  "tags": {
+    "addr:city": "Avellaneda",
+    "addr:housenumber": "41",
+    "addr:postcode": "1870",
+    "addr:street": "Coronel Lacarra",
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "name": "Pizzeria Nueva Galli",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4329773090,
+  "lat": -34.6619071,
+  "lon": -58.3652892,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Blois",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 4329773389,
+  "lat": -34.6643405,
+  "lon": -58.3687483,
+  "tags": {
+    "addr:city": "Avellaneda",
+    "addr:housenumber": "592",
+    "addr:postcode": "1870",
+    "addr:street": "Juan B. Palaá",
+    "amenity": "pub",
+    "brewery": "various",
+    "contact:facebook": "1870cerveceria",
+    "contact:instagram": "1870cerveceria",
+    "contact:website": "http://www.sabemosdecerveza.com/",
+    "cuisine": "tapas;friture;argentinian;barbecue;mexican;american;pizza",
+    "internet_access": "wlan",
+    "name": "1870 Cervecería",
+    "old_name:es": "Almacén “Vieja Esquina”",
+    "opening_hours": "Tu-Th 17:00-01:00, Fr 17:00-04:00, Sa 13:00-04:00, Su 13:00-01:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4357803972,
+  "lat": -34.6809947,
+  "lon": -58.3850649,
+  "tags": {
+    "addr:city": "Piñeyro",
+    "addr:housenumber": "2017",
+    "addr:street": "Avenida Hipólito Yrigoyen",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Il Bersagliere",
+    "phone": "+54 11 4218-6600",
+    "smoking": "no",
+    "takeaway": "no",
+    "website": "https://ilbersagliere.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 4483152420,
+  "lat": -34.6799637,
+  "lon": -58.3336096,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Mostaza",
+    "brand:wikidata": "Q16609167",
+    "cuisine": "burger",
+    "name": "Mostaza",
+    "smoking": "no",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4557699594,
+  "lat": -34.6662898,
+  "lon": -58.3639147,
+  "tags": {
+    "addr:street": "Coronel Brandsen",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Renatta"
+  }
+},
+{
+  "type": "node",
+  "id": 4597391350,
+  "lat": -34.7021762,
+  "lon": -58.3245350,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Heladería"
+  }
+},
+{
+  "type": "node",
+  "id": 4717527069,
+  "lat": -34.6647779,
+  "lon": -58.3533370,
+  "tags": {
+    "amenity": "restaurant",
+    "capacity": "80",
+    "cuisine": "regional",
+    "delivery": "no",
+    "name": "Parrilla Las Dos Banderas",
+    "outdoor_seating": "yes",
+    "smoking": "outside",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5184993807,
+  "lat": -34.6908519,
+  "lon": -58.3390948,
+  "tags": {
+    "name": "El Viejo Almacén",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5184994423,
+  "lat": -34.7179607,
+  "lon": -58.3399826,
+  "tags": {
+    "name": "Maxikiosco",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 5266912286,
+  "lat": -34.6533282,
+  "lon": -58.3620938,
+  "tags": {
+    "addr:housenumber": "240",
+    "addr:street": "Avenida General Roca",
+    "name": "Panadería Confitería",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5268168388,
+  "lat": -34.6615205,
+  "lon": -58.3573960,
+  "tags": {
+    "addr:street": "Avenida General Roca",
+    "amenity": "restaurant",
+    "name": "Matias"
+  }
+},
+{
+  "type": "node",
+  "id": 5268196863,
+  "lat": -34.6642428,
+  "lon": -58.3557197,
+  "tags": {
+    "addr:street": "José Manuel Estrada",
+    "name": "La Segunda San Martin",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5268352986,
+  "lat": -34.6680382,
+  "lon": -58.3638138,
+  "tags": {
+    "addr:street": "Avenida Belgrano",
+    "name": "Orali",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5268582860,
+  "lat": -34.6689965,
+  "lon": -58.3553854,
+  "tags": {
+    "addr:street": "Avenida Bartolomé Mitre",
+    "name": "Compostela",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5268582880,
+  "lat": -34.6705359,
+  "lon": -58.3540991,
+  "tags": {
+    "addr:street": "Avenida Bartolomé Mitre",
+    "name": "Las Medialunas del Abuelo",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5268582891,
+  "lat": -34.6710046,
+  "lon": -58.3536893,
+  "tags": {
+    "addr:street": "Avenida Bartolomé Mitre",
+    "name": "Rosa",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5268645181,
+  "lat": -34.6771566,
+  "lon": -58.3481696,
+  "tags": {
+    "addr:street": "Independencia",
+    "name": "Wallas",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5268645196,
+  "lat": -34.6724697,
+  "lon": -58.3608307,
+  "tags": {
+    "addr:street": "Avenida Mujeres Argentinas",
+    "amenity": "fast_food",
+    "name": "Pancho 77"
+  }
+},
+{
+  "type": "node",
+  "id": 5268842343,
+  "lat": -34.6610936,
+  "lon": -58.3629031,
+  "tags": {
+    "addr:city": "Avellaneda",
+    "addr:postcode": "1870",
+    "addr:street": "Florentino Ameghino",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5268851503,
+  "lat": -34.6651450,
+  "lon": -58.3627092,
+  "tags": {
+    "addr:street": "Italia",
+    "amenity": "restaurant",
+    "name": "Pontenegro"
+  }
+},
+{
+  "type": "node",
+  "id": 5268851508,
+  "lat": -34.6644388,
+  "lon": -58.3617363,
+  "tags": {
+    "addr:street": "Italia",
+    "name": "Fiore",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5268851517,
+  "lat": -34.6635608,
+  "lon": -58.3611544,
+  "tags": {
+    "addr:street": "Florentino Ameghino",
+    "name": "Autoservicio Ameghino",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5268862733,
+  "lat": -34.6589464,
+  "lon": -58.3649923,
+  "tags": {
+    "addr:street": "Florentino Ameghino",
+    "amenity": "restaurant",
+    "name": "Cantina Scoffano"
+  }
+},
+{
+  "type": "node",
+  "id": 5270182648,
+  "lat": -34.6635328,
+  "lon": -58.3507825,
+  "tags": {
+    "addr:street": "Doctor Manuel J. Ocantos",
+    "amenity": "restaurant",
+    "name": "Del Buen Gusto"
+  }
+},
+{
+  "type": "node",
+  "id": 5270182654,
+  "lat": -34.6700591,
+  "lon": -58.3447959,
+  "tags": {
+    "addr:street": "Hernán Cortés",
+    "name": "La Blanquita",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5270182666,
+  "lat": -34.6693405,
+  "lon": -58.3439621,
+  "tags": {
+    "addr:street": "Avenida Agustín Debenedetti",
+    "amenity": "restaurant",
+    "name": "El Tano"
+  }
+},
+{
+  "type": "node",
+  "id": 5270241871,
+  "lat": -34.6631999,
+  "lon": -58.3513487,
+  "tags": {
+    "addr:street": "Ricardo Gutiérrez",
+    "name": "Arco Iris",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5270276443,
+  "lat": -34.6649085,
+  "lon": -58.3496154,
+  "tags": {
+    "addr:street": "Ricardo Gutiérrez",
+    "amenity": "restaurant",
+    "name": "Locos x la Pizza"
+  }
+},
+{
+  "type": "node",
+  "id": 5270424995,
+  "lat": -34.6552363,
+  "lon": -58.3466031,
+  "tags": {
+    "addr:street": "Ingeniero Luis A. Huergo",
+    "name": "Rolando",
+    "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 5270425006,
+  "lat": -34.6528879,
+  "lon": -58.3463053,
+  "tags": {
+    "addr:street": "Leandro N. Alem",
+    "name": "Autoservicio Doña Irene",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5270465176,
+  "lat": -34.6554220,
+  "lon": -58.3463385,
+  "tags": {
+    "addr:street": "Leandro N. Alem",
+    "name": "Rolando",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5270490990,
+  "lat": -34.6552980,
+  "lon": -58.3440057,
+  "tags": {
+    "addr:street": "Ingeniero Luis A. Huergo",
+    "name": "Roma",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5270611335,
+  "lat": -34.6481619,
+  "lon": -58.3469142,
+  "tags": {
+    "addr:street": "Manuel Estévez",
+    "name": "La Moderna",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5270611340,
+  "lat": -34.6511769,
+  "lon": -58.3436504,
+  "tags": {
+    "addr:street": "Avenida Agustín Debenedetti",
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "La Piedrita"
+  }
+},
+{
+  "type": "node",
+  "id": 5270765459,
+  "lat": -34.6755069,
+  "lon": -58.3848382,
+  "tags": {
+    "addr:street": "Avenida Santa Fe",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5270787627,
+  "lat": -34.6762703,
+  "lon": -58.3854664,
+  "tags": {
+    "addr:street": "Avenida Santa Fe",
+    "name": "La Isla",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5270806299,
+  "lat": -34.6541735,
+  "lon": -58.3499179,
+  "tags": {
+    "addr:street": "25 de Mayo",
+    "name": "Las 3 Niñas",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5270931015,
+  "lat": -34.6668264,
+  "lon": -58.3489257,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Pizza Pronto XXL"
+  }
+},
+{
+  "type": "node",
+  "id": 5272098526,
+  "lat": -34.6615337,
+  "lon": -58.3685508,
+  "tags": {
+    "addr:street": "España",
+    "amenity": "fast_food",
+    "name": "La Argentina"
+  }
+},
+{
+  "type": "node",
+  "id": 5277786088,
+  "lat": -34.6611104,
+  "lon": -58.3675813,
+  "tags": {
+    "addr:street": "España",
+    "amenity": "restaurant",
+    "name": "Los Herederos"
+  }
+},
+{
+  "type": "node",
+  "id": 5277825537,
+  "lat": -34.6623793,
+  "lon": -58.3675542,
+  "tags": {
+    "addr:street": "Avenida Belgrano",
+    "amenity": "restaurant",
+    "name": "El Sabor Artesanal"
+  }
+},
+{
+  "type": "node",
+  "id": 5277825552,
+  "lat": -34.6633545,
+  "lon": -58.3673056,
+  "tags": {
+    "addr:street": "Avenida Belgrano",
+    "amenity": "restaurant",
+    "name": "Pepo's"
+  }
+},
+{
+  "type": "node",
+  "id": 5277865606,
+  "lat": -34.6660264,
+  "lon": -58.3687203,
+  "tags": {
+    "addr:street": "Adolfo Alsina",
+    "name": "El Sol de Galicia",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5307176856,
+  "lat": -34.6768188,
+  "lon": -58.3832017,
+  "tags": {
+    "addr:street": "Avenida Hipólito Yrigoyen",
+    "amenity": "restaurant",
+    "name": "Flamber"
+  }
+},
+{
+  "type": "node",
+  "id": 5330278498,
+  "lat": -34.6613747,
+  "lon": -58.3749452,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "El Parrillón"
+  }
+},
+{
+  "type": "node",
+  "id": 5332237513,
+  "lat": -34.6626863,
+  "lon": -58.3772023,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "El Campeón",
+    "phone": "+54 11 4222-3736; +54 11 4222-3723"
+  }
+},
+{
+  "type": "node",
+  "id": 5501978851,
+  "lat": -34.6907489,
+  "lon": -58.3392438,
+  "tags": {
+    "name": "Las Mil Delicias",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5543281022,
+  "lat": -34.6909704,
+  "lon": -58.3353778,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2024-12-25",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5562589121,
+  "lat": -34.7026324,
+  "lon": -58.3398694,
+  "tags": {
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5571612925,
+  "lat": -34.6932964,
+  "lon": -58.3391871,
+  "tags": {
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5571628522,
+  "lat": -34.6935867,
+  "lon": -58.3425030,
+  "tags": {
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5696529025,
+  "lat": -34.6780541,
+  "lon": -58.3340737,
+  "tags": {
+    "addr:city": "Sarandí",
+    "addr:country": "AR",
+    "addr:postcode": "1879",
+    "addr:province": "Buenos Aires",
+    "addr:street": "Autopista Doctor Ricardo Balbín",
+    "amenity": "cafe",
+    "brand": "Café Martínez",
+    "brand:wikidata": "Q16540032",
+    "brand:wikipedia": "es:Café Martínez",
+    "contact:facebook": "https://www.facebook.com/CafeMartinezSitioOficial/",
+    "contact:instagram": "https://www.instagram.com/cafemartinezoficial/",
+    "contact:twitter": "https://www.twitter.com/cafemartinez/",
+    "cuisine": "coffee_shop",
+    "delivery": "no",
+    "drive_through": "no",
+    "email": "avellaneda@cafemartinez.com.ar",
+    "internet_access": "wlan",
+    "name": "Café Martínez",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "outdoor_seating": "no",
+    "phone": "+54 11 2080-0037",
+    "ref": "1032",
+    "takeaway": "yes",
+    "website": "https://www.cafemartinez.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5696529026,
+  "lat": -34.6613527,
+  "lon": -58.3666679,
+  "tags": {
+    "addr:city": "Avellaneda",
+    "addr:country": "AR",
+    "addr:housenumber": "621",
+    "addr:postcode": "1870",
+    "addr:province": "Buenos Aires",
+    "addr:street": "Avenida Bartolomé Mitre",
+    "amenity": "cafe",
+    "brand": "Café Martínez",
+    "brand:wikidata": "Q16540032",
+    "brand:wikipedia": "es:Café Martínez",
+    "contact:facebook": "https://www.facebook.com/CafeMartinezSitioOficial/",
+    "contact:instagram": "https://www.instagram.com/cafemartinezoficial/",
+    "contact:twitter": "https://www.twitter.com/cafemartinez/",
+    "cuisine": "coffee_shop",
+    "delivery": "no",
+    "drive_through": "no",
+    "email": "avellanedacentro@cafemartinez.com.ar",
+    "internet_access": "wlan",
+    "name": "Café Martínez",
+    "opening_hours": "Mo-Fr 07:00-21:00; Sa,Su 08:00-21:00",
+    "outdoor_seating": "yes",
+    "phone": "+54 11 4201-2618",
+    "takeaway": "yes",
+    "website": "https://www.cafemartinez.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6001170125,
+  "lat": -34.6800480,
+  "lon": -58.3330612,
+  "tags": {
+    "addr:city": "Sarandí",
+    "addr:country": "AR",
+    "addr:housenumber": "km 8.5",
+    "addr:postcode": "1879",
+    "addr:province": "Buenos Aires",
+    "addr:street": "Autopista Doctor Ricardo Balbín",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "contact:facebook": "https://www.facebook.com/StarbucksArgentina/",
+    "contact:instagram": "https://www.instagram.com/starbucksargentina/",
+    "contact:twitter": "https://www.twitter.com/StarbucksAr/",
+    "cuisine": "coffee_shop",
+    "delivery": "no",
+    "drive_through": "no",
+    "email": "info@starbucks.com.ar",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "opening_hours": "Mo-Th,Su 09:00-23:00; Fr,Sa 09:00-02:00",
+    "outdoor_seating": "yes",
+    "phone:AR": "0800-122-0129",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "https://www.starbucks.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6072021764,
+  "lat": -34.7035920,
+  "lon": -58.3168183,
+  "tags": {
+    "addr:city": "Wilde",
+    "addr:housenumber": "43",
+    "addr:postcode": "1875",
+    "addr:street": "Las Flores",
+    "amenity": "fast_food",
+    "brand": "Burger King",
+    "brand:wikidata": "Q177054",
+    "brand:wikipedia": "en:Burger King",
+    "cuisine": "burger",
+    "name": "Burger King",
+    "opening_hours": "Mo-Fr 07:00-00:00, Sa-Su 10:00-00:00",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6072021765,
+  "lat": -34.7030683,
+  "lon": -58.3160977,
+  "tags": {
+    "addr:city": "Wilde",
+    "addr:housenumber": "6260",
+    "addr:postcode": "1875",
+    "addr:street": "Mariano Moreno",
+    "amenity": "restaurant",
+    "cuisine": "pizza;sandwich",
+    "name": "Pizzeria Lo+Hot Wilde",
+    "opening_hours": "Mo-Sa 08:00-02:00, Su 10:00-02:00",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6072021766,
+  "lat": -34.7026972,
+  "lon": -58.3157173,
+  "tags": {
+    "addr:city": "Wilde",
+    "addr:postcode": "1875",
+    "addr:street": "Calderón",
+    "name": "El Sabor Artensanal",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "bakery",
+    "website": "https://elsaborartesanal.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6879088748,
+  "lat": -34.6688445,
+  "lon": -58.3108994,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Establecimiento del abuelo"
+  }
+},
+{
+  "type": "node",
+  "id": 8168044482,
+  "lat": -34.6603679,
+  "lon": -58.3630831,
+  "tags": {
+    "addr:housenumber": "216",
+    "addr:street": "25 de Mayo",
+    "description": "recarga matafuegos",
+    "name": "Matafuegos ST",
+    "phone": "+54 11 7708 0583",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 9046803911,
+  "lat": -34.6626841,
+  "lon": -58.3347577,
+  "tags": {
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 9258907019,
+  "lat": -34.7034380,
+  "lon": -58.3187662,
+  "tags": {
+    "addr:city": "Wilde",
+    "addr:housenumber": "6221",
+    "addr:street": "Avenida Bartolomé Mitre",
+    "amenity": "pub",
+    "brewery": "yes",
+    "contact:instagram": "vinilocerveceria",
+    "contact:whatsapp": "+54 9 11 3431-4661",
+    "name": "Vinilo"
+  }
+},
+{
+  "type": "node",
+  "id": 9313427956,
+  "lat": -34.6639376,
+  "lon": -58.3689695,
+  "tags": {
+    "addr:city": "Avellaneda",
+    "addr:housenumber": "568",
+    "addr:street": "Juan B. Palaá",
+    "amenity": "pub",
+    "brewery": "yes",
+    "cocktails": "yes",
+    "fixme": "ubicación aproximada",
+    "name": "Distrito Sur",
+    "opening_hours": "Tu,We 12:00-01:00, Th-Sa 12:00-03:00, Su 16:30-01:00"
+  }
+},
+{
+  "type": "node",
+  "id": 9313438864,
+  "lat": -34.6636163,
+  "lon": -58.3696777,
+  "tags": {
+    "addr:city": "Avellaneda",
+    "addr:housenumber": "501",
+    "addr:street": "Juan B. Palaá",
+    "amenity": "pub",
+    "brewery": "various",
+    "contact:instagram": "harlem.hood",
+    "name": "Harlem",
+    "opening_hours": "Mo-Su 11:00-17:00,18:00+"
+  }
+},
+{
+  "type": "node",
+  "id": 9313447978,
+  "lat": -34.6639224,
+  "lon": -58.3647370,
+  "tags": {
+    "addr:city": "Avellaneda",
+    "addr:housenumber": "875",
+    "addr:street": "General San Martín",
+    "amenity": "pub",
+    "brewery": "various",
+    "cocktails": "yes",
+    "contact:facebook": "https://www.facebook.com/Bowery-Craft-Beer-102983072115785",
+    "contact:instagram": "bowery.craftbeer",
+    "contact:whatsapp": "+54 11 6710-2822",
+    "cuisine": "burger;salad;sandwich;lomito;pizza",
+    "fixme": "ubicacion aproximada",
+    "happy_hours": "Mo-Su 18:00-20:00",
+    "name": "Bowery Craft Beer",
+    "opening_hours": "Mo-Su 10:00-04:30"
+  }
+},
+{
+  "type": "node",
+  "id": 9313451371,
+  "lat": -34.6645364,
+  "lon": -58.3690208,
+  "tags": {
+    "addr:city": "Avellaneda",
+    "addr:postcode": "1870",
+    "addr:street": "Juan B. Palaá",
+    "amenity": "pub",
+    "brewery": "various",
+    "contact:facebook": "1870cerveceria",
+    "contact:instagram": "1870cerveceria",
+    "contact:website": "http://www.sabemosdecerveza.com/",
+    "cuisine": "pizza",
+    "name": "1870 B-Side",
+    "opening_hours": "Tu-Th 17:00-01:00, Fr 17:00-04:00, Sa 13:00-04:00, Su 13:00-01:00"
+  }
+},
+{
+  "type": "node",
+  "id": 9753012218,
+  "lat": -34.6624063,
+  "lon": -58.3658769,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Club Pueblo Unido"
+  }
+},
+{
+  "type": "node",
+  "id": 9999523906,
+  "lat": -34.6652639,
+  "lon": -58.3784280,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "steak;argentinian",
+    "name": "Parrilla El Quincho"
+  }
+},
+{
+  "type": "node",
+  "id": 9999541787,
+  "lat": -34.6654896,
+  "lon": -58.3782425,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "hot_dog",
+    "name": "Panchos 99"
+  }
+},
+{
+  "type": "node",
+  "id": 10176061663,
+  "lat": -34.6787585,
+  "lon": -58.3888692,
+  "tags": {
+    "addr:city": "Piñeyro",
+    "addr:housenumber": "301",
+    "addr:street": "Avenida Cabildo",
+    "name": "Los Cocos",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 10603821134,
+  "lat": -34.6667985,
+  "lon": -58.3675691,
+  "tags": {
+    "addr:city": "Avellaneda",
+    "addr:housenumber": "876",
+    "addr:postcode": "1870",
+    "addr:street": "Colón",
+    "amenity": "fast_food",
+    "cuisine": "papa",
+    "diet:gluten_free": "yes",
+    "drive_through": "yes",
+    "name": "Potatoes deposit",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 10796206513,
+  "lat": -34.6926018,
+  "lon": -58.3319246,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Troilo"
+  }
+},
+{
+  "type": "node",
+  "id": 12585450902,
+  "lat": -34.6633342,
+  "lon": -58.3648749,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Valence"
+  }
+},
+{
+  "type": "node",
+  "id": 12585478702,
+  "lat": -34.6634877,
+  "lon": -58.3651450,
+  "tags": {
+    "name": "La Espanolita",
+    "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 12860257274,
+  "lat": -34.6551234,
+  "lon": -58.3408518,
+  "tags": {
+    "addr:city": "Dock Sud",
+    "addr:housenumber": "1775",
+    "addr:postcode": "B1871ASD",
+    "addr:street": "Juan Díaz de Solís",
+    "amenity": "cafe",
+    "name": "The Marine Bar"
+  }
+},
+{
+  "type": "node",
+  "id": 13161147541,
+  "lat": -34.7062638,
+  "lon": -58.3154448,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Mostaza"
+  }
+},
+{
+  "type": "node",
+  "id": 13971062701,
+  "lat": -34.6631620,
+  "lon": -58.3668742,
+  "tags": {
+    "addr:housenumber": "91",
+    "addr:postcode": "1870",
+    "addr:street": "General Lavalle",
+    "check_date": "2026-06-27",
+    "contact:instagram": "kanela.pasteleria",
+    "level": "0",
+    "name": "Kanela",
+    "phone": "+541154828166",
+    "shop": "pastry"
+  }
+},
+{
+  "type": "node",
+  "id": 14007711001,
+  "lat": -34.6660360,
+  "lon": -58.3622704,
+  "tags": {
+    "addr:housenumber": "1184",
+    "addr:street": "San Martín",
+    "amenity": "restaurant",
+    "contact:facebook": "lecheymielwaffles",
+    "cuisine": "burger;coffee_shop",
+    "name": "Leche y miel waffles",
+    "opening_hours": "Mo-Fr 11:00-19:30; Sa 13:00-19:30"
+  }
+},
+{
+  "type": "way",
+  "id": 26590219,
+  "center": {
+    "lat": -34.6589085,
+    "lon": -58.3759580
+  },
+  "tags": {
+    "brand": "Carrefour",
+    "brand:wikidata": "Q217599",
+    "brand:wikipedia": "fr:Carrefour (enseigne)",
+    "building": "retail",
+    "name": "Carrefour",
+    "operator": "Groupe Carrefour",
+    "operator:wikidata": "Q3117359",
+    "operator:wikipedia": "es:Carrefour",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 161797200,
+  "center": {
+    "lat": -34.6831898,
+    "lon": -58.3415852
+  },
+  "tags": {
+    "brand": "Coto",
+    "brand:wikidata": "Q5175411",
+    "brand:wikipedia": "es:Coto (supermercado)",
+    "name": "Coto",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 239342153,
+  "center": {
+    "lat": -34.6637798,
+    "lon": -58.3905145
+  },
+  "tags": {
+    "building": "retail",
+    "name": "Vital",
+    "shop": "supermarket",
+    "wholesale": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 321924930,
+  "center": {
+    "lat": -34.6657170,
+    "lon": -58.3661656
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "building": "yes",
+    "name": "YPF Full"
+  }
+},
+{
+  "type": "way",
+  "id": 323664556,
+  "center": {
+    "lat": -34.6773696,
+    "lon": -58.3314452
+  },
+  "tags": {
+    "building": "yes",
+    "shop": "convenience",
+    "toilets": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 323788355,
+  "center": {
+    "lat": -34.6796095,
+    "lon": -58.3334868
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 459429647,
+  "center": {
+    "lat": -34.6853007,
+    "lon": -58.3045328
+  },
+  "tags": {
+    "building": "yes",
+    "check_date": "2024-06-02",
+    "name": "Full",
+    "shop": "convenience",
+    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+  }
+},
+{
+  "type": "way",
+  "id": 459429649,
+  "center": {
+    "lat": -34.6846312,
+    "lon": -58.3041962
+  },
+  "tags": {
+    "building": "yes",
+    "check_date": "2024-06-02",
+    "name": "Full",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 544886851,
+  "center": {
+    "lat": -34.6477802,
+    "lon": -58.3489809
+  },
+  "tags": {
+    "addr:housenumber": "1148",
+    "addr:street": "Irala",
+    "building": "yes",
+    "name": "Despensa Fiambrería",
+    "shop": "deli"
+  }
+},
+{
+  "type": "way",
+  "id": 544908182,
+  "center": {
+    "lat": -34.6652474,
+    "lon": -58.3575785
+  },
+  "tags": {
+    "addr:street": "Olavarría",
+    "amenity": "ice_cream",
+    "building": "yes",
+    "name": "Savant"
+  }
+},
+{
+  "type": "way",
+  "id": 545037661,
+  "center": {
+    "lat": -34.6645262,
+    "lon": -58.3541879
+  },
+  "tags": {
+    "addr:street": "Avenida General Roca",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "La Parrilla de Diegote"
+  }
+},
+{
+  "type": "way",
+  "id": 545040750,
+  "center": {
+    "lat": -34.6733895,
+    "lon": -58.3460355
+  },
+  "tags": {
+    "addr:street": "Avenida General Roca",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Parrilla Esperanza"
+  }
+},
+{
+  "type": "way",
+  "id": 545094200,
+  "center": {
+    "lat": -34.6730823,
+    "lon": -58.3518068
+  },
+  "tags": {
+    "addr:street": "Avenida Bartolomé Mitre",
+    "building": "yes",
+    "name": "Rosamistica",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "way",
+  "id": 545094226,
+  "center": {
+    "lat": -34.6762753,
+    "lon": -58.3522430
+  },
+  "tags": {
+    "addr:street": "Juan Manuel Casella Piñero",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "In Vitta"
+  }
+},
+{
+  "type": "way",
+  "id": 545103992,
+  "center": {
+    "lat": -34.6678545,
+    "lon": -58.3558213
+  },
+  "tags": {
+    "amenity": "bar",
+    "building": "yes",
+    "name": "Resto-Bar"
+  }
+},
+{
+  "type": "way",
+  "id": 545104003,
+  "center": {
+    "lat": -34.6729962,
+    "lon": -58.3506557
+  },
+  "tags": {
+    "addr:street": "Avenida Bartolomé Mitre",
+    "building": "yes",
+    "name": "Capicua",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 545303694,
+  "center": {
+    "lat": -34.6540873,
+    "lon": -58.3437587
+  },
+  "tags": {
+    "addr:street": "Avenida Agustín Debenedetti",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Parrilla"
+  }
+},
+{
+  "type": "way",
+  "id": 545349992,
+  "center": {
+    "lat": -34.6491954,
+    "lon": -58.3479083
+  },
+  "tags": {
+    "addr:street": "Avenida Nicolás Avellaneda",
+    "amenity": "fast_food",
+    "building": "yes",
+    "name": "Maxipollo Granja"
+  }
+},
+{
+  "type": "way",
+  "id": 545491122,
+  "center": {
+    "lat": -34.6648599,
+    "lon": -58.3596627
+  },
+  "tags": {
+    "addr:street": "Avenida Bartolomé Mitre",
+    "building": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 545491125,
+  "center": {
+    "lat": -34.6614970,
+    "lon": -58.3680223
+  },
+  "tags": {
+    "addr:street": "Avenida Belgrano",
+    "building": "yes",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 545491129,
+  "center": {
+    "lat": -34.6624019,
+    "lon": -58.3705086
+  },
+  "tags": {
+    "addr:city": "Avellaneda",
+    "addr:housenumber": "401",
+    "addr:street": "Juan B. Palaá",
+    "amenity": "pub",
+    "brewery": "yes",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/chicho19277/",
+    "contact:website": "https://cerveceriamariscalpelletti.negocio.site/",
+    "happy_hours": "We-Su 18:00-20:30",
+    "name": "Mariscal Pelletti",
+    "opening_hours": "We-Th 17:00-01:00, Fr,Sa 17:00-02:00, Su 17:00-01:00"
+  }
+},
+{
+  "type": "way",
+  "id": 546127814,
+  "center": {
+    "lat": -34.6669416,
+    "lon": -58.3715219
+  },
+  "tags": {
+    "addr:street": "Díaz Vélez",
+    "building": "yes",
+    "name": "Luna",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 546140228,
+  "center": {
+    "lat": -34.6659152,
+    "lon": -58.3651697
+  },
+  "tags": {
+    "addr:street": "Avenida Belgrano",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "La Facultad"
+  }
+},
+{
+  "type": "way",
+  "id": 546183731,
+  "center": {
+    "lat": -34.7167647,
+    "lon": -58.3227580
+  },
+  "tags": {
+    "addr:street": "Coronel Lynch",
+    "building": "yes",
+    "name": "Supermercado Super Ciudad",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 548449652,
+  "center": {
+    "lat": -34.6910848,
+    "lon": -58.3377418
+  },
+  "tags": {
+    "addr:street": "Avenida Belgrano",
+    "brand": "Dia",
+    "brand:wikidata": "Q925132",
+    "brand:wikipedia": "es:Supermercados DIA",
+    "building": "yes",
+    "name": "Dia",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 549201100,
+  "center": {
+    "lat": -34.6730352,
+    "lon": -58.3949116
+  },
+  "tags": {
+    "addr:street": "Avenida Rivadavia",
+    "building": "yes",
+    "name": "Super Ahorro",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 549378510,
+  "center": {
+    "lat": -34.6777370,
+    "lon": -58.3906267
+  },
+  "tags": {
+    "addr:housenumber": "452",
+    "addr:street": "Avenida Cabildo",
+    "amenity": "bar",
+    "name": "Punto Piñeyro"
+  }
+},
+{
+  "type": "way",
+  "id": 549435779,
+  "center": {
+    "lat": -34.6879507,
+    "lon": -58.3690558
+  },
+  "tags": {
+    "addr:street": "José Martín de la Serna",
+    "amenity": "restaurant",
+    "name": "Savona"
+  }
+},
+{
+  "type": "way",
+  "id": 549440737,
+  "center": {
+    "lat": -34.6816290,
+    "lon": -58.3704478
+  },
+  "tags": {
+    "addr:street": "Coronel Lacarra",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "La Exposicion"
+  }
+},
+{
+  "type": "way",
+  "id": 549588377,
+  "center": {
+    "lat": -34.6858098,
+    "lon": -58.3452046
+  },
+  "tags": {
+    "addr:street": "Avenida Belgrano",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "way",
+  "id": 549626537,
+  "center": {
+    "lat": -34.6865892,
+    "lon": -58.3543843
+  },
+  "tags": {
+    "addr:street": "General Paunero",
+    "name": "Confitería",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "way",
+  "id": 610618023,
+  "center": {
+    "lat": -34.7037263,
+    "lon": -58.3404159
+  },
+  "tags": {
+    "addr:city": "Villa Domínico",
+    "addr:street": "Magdalena",
+    "contact:facebook": "https://www.facebook.com/MaxiconsumoSA/",
+    "name": "Maxiconsumo",
+    "shop": "supermarket",
+    "website": "https://www.maxiconsumo.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 653479582,
+  "center": {
+    "lat": -34.6760018,
+    "lon": -58.3687114
+  },
+  "tags": {
+    "contact:facebook": "https://www.facebook.com/muzicandystore/",
+    "contact:instagram": "https://www.instagram.com/muzicandystore/",
+    "level": "0",
+    "name": "Muzi",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "ref": "G25",
+    "shop": "confectionery",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479588,
+  "center": {
+    "lat": -34.6760352,
+    "lon": -58.3672409
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "es:McDonald's",
+    "contact:facebook": "https://www.facebook.com/mcdonaldsargentina/",
+    "contact:instagram": "https://www.instagram.com/mcdonalds_ar/",
+    "contact:twitter": "https://www.twitter.com/mcdonalds_ar/",
+    "cuisine": "burger",
+    "level": "0",
+    "name": "McDonald's",
+    "name:es": "McDonald's",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "ref": "G56A",
+    "takeaway": "yes",
+    "website": "https://www.mcdonalds.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479593,
+  "center": {
+    "lat": -34.6761386,
+    "lon": -58.3687909
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "es:McDonald's",
+    "contact:facebook": "https://www.facebook.com/McDonaldsArgentina/",
+    "contact:instagram": "https://www.instagram.com/mcdonalds_ar/",
+    "contact:twitter": "https://www.twitter.com/mcdonalds_ar/",
+    "cuisine": "burger",
+    "level": "0",
+    "name": "McDonald's",
+    "name:es": "McDonald's",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "ref": "G23",
+    "takeaway": "yes",
+    "website": "https://www.mcdonalds.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479594,
+  "center": {
+    "lat": -34.6759823,
+    "lon": -58.3672110
+  },
+  "tags": {
+    "level": "0",
+    "name": "Open Candy",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "ref": "G55",
+    "shop": "confectionery",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479595,
+  "center": {
+    "lat": -34.6762199,
+    "lon": -58.3688033
+  },
+  "tags": {
+    "level": "0",
+    "name": "Open 25 Hs",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "phone": "+54 11 4229-0346",
+    "ref": "G22",
+    "shop": "kiosk",
+    "website": "http://www.open25.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479597,
+  "center": {
+    "lat": -34.6763202,
+    "lon": -58.3680027
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/stradapizzapasta/",
+    "contact:instagram": "https://www.instagram.com/stradapizzapasta/",
+    "cuisine": "pizza;pasta",
+    "indoor": "room",
+    "level": "0",
+    "name": "Strada",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 4229-0410",
+    "ref": "201",
+    "room": "shop",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479598,
+  "center": {
+    "lat": -34.6764425,
+    "lon": -58.3681377
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Burger King",
+    "brand:wikidata": "Q177054",
+    "brand:wikipedia": "en:Burger King",
+    "contact:facebook": "https://www.facebook.com/burgerkingargentina/",
+    "contact:instagram": "https://www.instagram.com/burgerkingarg/",
+    "contact:twitter": "https://www.twitter.com/burgerkingarg/",
+    "cuisine": "burger",
+    "indoor": "room",
+    "level": "0",
+    "name": "Burger King",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 4229-0411",
+    "ref": "201",
+    "room": "shop",
+    "takeaway": "yes",
+    "website": "https://www.burgerking.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479599,
+  "center": {
+    "lat": -34.6764213,
+    "lon": -58.3682527
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "contact:facebook": "https://www.facebook.com/avecaesarok/",
+    "cuisine": "chicken",
+    "indoor": "room",
+    "level": "0",
+    "name": "Ave Caesar",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 4229-0412",
+    "ref": "204",
+    "room": "shop",
+    "website": "http://www.avecaesar.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479600,
+  "center": {
+    "lat": -34.6763852,
+    "lon": -58.3682996
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "contact:instagram": "https://www.instagram.com/sensu_sushi/",
+    "cuisine": "sushi",
+    "indoor": "room",
+    "level": "0",
+    "name": "Sensu",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 4229-0413",
+    "ref": "205",
+    "room": "shop",
+    "website": "https://sensu.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479601,
+  "center": {
+    "lat": -34.6763493,
+    "lon": -58.3683463
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "indoor": "room",
+    "level": "0",
+    "name": "American Favs",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 4205-5850",
+    "ref": "206",
+    "room": "shop",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479602,
+  "center": {
+    "lat": -34.6763125,
+    "lon": -58.3683944
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "indoor": "room",
+    "level": "0",
+    "name": "Sabor Gourmet",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 4229-0415",
+    "ref": "207",
+    "room": "shop",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479603,
+  "center": {
+    "lat": -34.6762751,
+    "lon": -58.3684431
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "contact:facebook": "https://www.facebook.com/greenandcompany/",
+    "contact:instagram": "https://www.instagram.com/greenandcompany/",
+    "cuisine": "wok",
+    "indoor": "room",
+    "level": "0",
+    "name": "Green & Company",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 4229-0416",
+    "ref": "208",
+    "room": "shop",
+    "website": "https://www.greenandcompany.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479604,
+  "center": {
+    "lat": -34.6762394,
+    "lon": -58.3684899
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "grill",
+    "indoor": "room",
+    "level": "0",
+    "name": "Negro El 11",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 4229-0417",
+    "ref": "209",
+    "room": "shop",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479608,
+  "center": {
+    "lat": -34.6758064,
+    "lon": -58.3678455
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "contact:facebook": "https://www.facebook.com/questapizza/",
+    "contact:instagram": "https://www.instagram.com/questa_pizza/",
+    "cuisine": "pizza",
+    "indoor": "room",
+    "level": "0",
+    "name": "Questa Pizza",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 4229-0404",
+    "ref": "224",
+    "room": "shop",
+    "website": "http://www.questapizza.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479609,
+  "center": {
+    "lat": -34.6758531,
+    "lon": -58.3677845
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Mostaza",
+    "brand:wikidata": "Q16609167",
+    "contact:facebook": "https://www.facebook.com/mostazasocial/",
+    "contact:instagram": "https://www.instagram.com/mostazasocial/",
+    "contact:twitter": "https://www.twitter.com/mostazasocial/",
+    "cuisine": "burger",
+    "indoor": "room",
+    "level": "0",
+    "name": "Mostaza",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 4265-2724",
+    "ref": "225",
+    "room": "shop",
+    "takeaway": "yes",
+    "website": "https://www.mostazaweb.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479610,
+  "center": {
+    "lat": -34.6759074,
+    "lon": -58.3677141
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pasta",
+    "indoor": "room",
+    "level": "0",
+    "name": "Terra di Pasta",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 4229-0407",
+    "ref": "226",
+    "room": "shop",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479612,
+  "center": {
+    "lat": -34.6760735,
+    "lon": -58.3677108
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "es:McDonald's",
+    "contact:facebook": "https://www.facebook.com/mcdonaldsargentina/",
+    "contact:instagram": "https://www.instagram.com/mcdonalds_ar/",
+    "contact:twitter": "https://www.twitter.com/mcdonalds_ar/",
+    "cuisine": "burger",
+    "indoor": "room",
+    "level": "0",
+    "name": "McDonald's",
+    "name:es": "McDonald's",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 4966-8273",
+    "ref": "228",
+    "room": "shop",
+    "takeaway": "yes",
+    "website": "https://www.mcdonalds.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479613,
+  "center": {
+    "lat": -34.6757912,
+    "lon": -58.3681487
+  },
+  "tags": {
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "brand:wikipedia": "en:KFC",
+    "contact:facebook": "https://www.facebook.com/kfcargentina/",
+    "contact:instagram": "https://www.instagram.com/kfc_argentina/",
+    "contact:twitter": "https://www.twitter.com/kfc_argentina/",
+    "cuisine": "chicken",
+    "indoor": "room",
+    "level": "0",
+    "name": "KFC",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "phone": "+54 11 5199-0501",
+    "ref": "218",
+    "room": "shop",
+    "takeaway": "yes",
+    "website": "http://www.avecaesar.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479615,
+  "center": {
+    "lat": -34.6760386,
+    "lon": -58.3684192
+  },
+  "tags": {
+    "indoor": "room",
+    "level": "0",
+    "name": "Open 25 Hs",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "phone": "+54 11 4229-0346",
+    "ref": "G22",
+    "room": "shop",
+    "shop": "kiosk",
+    "website": "http://www.open25.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479617,
+  "center": {
+    "lat": -34.6761386,
+    "lon": -58.3685335
+  },
+  "tags": {
+    "amenity": "ice_cream",
+    "contact:facebook": "https://www.facebook.com/yolaspaletas/",
+    "contact:instagram": "https://www.instagram.com/yolaspaletas/",
+    "contact:twitter": "https://www.twitter.com/yolaspaletas/",
+    "indoor": "room",
+    "level": "0",
+    "name": "Yolas",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "ref": "210",
+    "room": "shop",
+    "website": "http://www.yolas.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479684,
+  "center": {
+    "lat": -34.6764505,
+    "lon": -58.3674224
+  },
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "contact:facebook": "https://www.facebook.com/StarbucksArgentina/",
+    "contact:instagram": "https://www.instagram.com/starbucksargentina/",
+    "contact:twitter": "https://www.twitter.com/StarbucksAr/",
+    "cuisine": "coffee_shop",
+    "delivery": "no",
+    "drive_through": "no",
+    "email": "info@starbucks.com.ar",
+    "indoor": "room",
+    "level": "0",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "opening_hours": "Mo-Th 09:00-23:00; Fr,Sa 09:00-01:00; Su 10:00-23:00",
+    "outdoor_seating": "no",
+    "phone": "+54 11 4204-3785",
+    "phone:AR": "0800-122-0129",
+    "ref": "115",
+    "room": "yes",
+    "takeaway": "yes",
+    "website": "https://www.starbucks.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479705,
+  "center": {
+    "lat": -34.6758635,
+    "lon": -58.3670318
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Brioche Dorée",
+    "brand:wikidata": "Q2925606",
+    "contact:facebook": "https://www.facebook.com/briochedoreeargentina/",
+    "contact:instagram": "https://www.instagram.com/briochedoreearg/",
+    "contact:twitter": "https://www.twitter.com/briochedoreearg/",
+    "cuisine": "sandwich;salad",
+    "level": "0",
+    "name": "Brioche Dorée",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "phone": "+54 11 4229-0293",
+    "ref": "G244",
+    "shop": "bakery",
+    "website": "http://www.clubbriochedoree.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479799,
+  "center": {
+    "lat": -34.6769379,
+    "lon": -58.3682575
+  },
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Café Martínez",
+    "brand:wikidata": "Q16540032",
+    "brand:wikipedia": "es:Café Martínez",
+    "contact:facebook": "https://www.facebook.com/CafeMartinezSitioOficial/",
+    "contact:instagram": "https://www.instagram.com/cafemartinezoficial/",
+    "contact:twitter": "https://www.twitter.com/cafemartinez/",
+    "cuisine": "coffee_shop",
+    "delivery": "no",
+    "drive_through": "no",
+    "email": "altoavellaneda@cafemartinez.com.ar",
+    "internet_access": "wlan",
+    "level": "0",
+    "name": "Café Martínez",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "outdoor_seating": "no",
+    "phone": "+54 11 4229-0442",
+    "ref": "G246",
+    "takeaway": "yes",
+    "website": "https://www.cafemartinez.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479808,
+  "center": {
+    "lat": -34.6754919,
+    "lon": -58.3679439
+  },
+  "tags": {
+    "brand": "Nespresso",
+    "brand:wikidata": "Q301301",
+    "brand:wikipedia": "en:Nespresso",
+    "contact:facebook": "https://www.facebook.com/nespresso.ar/",
+    "contact:instagram": "https://www.instagram.com/nespresso.ar/",
+    "contact:twitter": "https://www.twitter.com/nespresso/",
+    "level": "0",
+    "name": "Nespresso",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "ref": "G38",
+    "shop": "coffee",
+    "website": "http://www.nespresso.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479811,
+  "center": {
+    "lat": -34.6756338,
+    "lon": -58.3683010
+  },
+  "tags": {
+    "amenity": "ice_cream",
+    "contact:facebook": "https://www.facebook.com/guapaletas/",
+    "contact:instagram": "https://www.instagram.com/guapaletas/",
+    "contact:twitter": "https://www.twitter.com/guapaletas/",
+    "level": "0",
+    "name": "Guapaletas",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "ref": "G33",
+    "website": "https://www.guapaletas.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479814,
+  "center": {
+    "lat": -34.6754006,
+    "lon": -58.3678688
+  },
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Havanna",
+    "brand:wikidata": "Q2900869",
+    "brand:wikipedia": "es:Havanna",
+    "contact:facebook": "https://www.facebook.com/havannaargentina/",
+    "contact:instagram": "https://www.instagram.com/havannaarg/",
+    "contact:twitter": "https://www.twitter.com/Havanna_arg/",
+    "cuisine": "coffee_shop",
+    "delivery": "no",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Havanna",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "outdoor_seating": "no",
+    "phone": "+54 11 4229-0427",
+    "phone:AR": "0800-666-1371",
+    "ref": "G336",
+    "takeaway": "yes",
+    "website": "https://www.havanna.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 653479820,
+  "center": {
+    "lat": -34.6761653,
+    "lon": -58.3682326
+  },
+  "tags": {
+    "amenity": "ice_cream",
+    "contact:facebook": "https://www.facebook.com/laveneciana/",
+    "contact:instagram": "https://www.instagram.com/la_veneciana/",
+    "contact:twitter": "https://www.twitter.com/la_veneciana/",
+    "level": "0",
+    "name": "La Veneciana",
+    "opening_hours": "Mo-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00",
+    "ref": "232",
+    "website": "https://www.laveneciana.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 683454875,
+  "center": {
+    "lat": -34.6683295,
+    "lon": -58.3635563
+  },
+  "tags": {
+    "addr:city": "Avellaneda",
+    "addr:housenumber": "1112",
+    "addr:postcode": "1870",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "bar",
+    "brewery": "yes;artesanal",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/jeys.resto/",
+    "contact:phone": "+54 9 11 2407-7509",
+    "cuisine": "burger;pizza;mexicana;sandwich",
+    "diet:vegan": "yes",
+    "name": "Jeys",
+    "opening_hours": "Mo-Sa 17:00-01:00",
+    "smoking": "isolated"
+  }
+},
+{
+  "type": "way",
+  "id": 885960790,
+  "center": {
+    "lat": -34.6946882,
+    "lon": -58.3598823
+  },
+  "tags": {
+    "addr:city": "Gerli",
+    "building": "yes",
+    "name": "Kiosco de la Geno",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "way",
+  "id": 1267735057,
+  "center": {
+    "lat": -34.6709254,
+    "lon": -58.3743875
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1527583315,
+  "center": {
+    "lat": -34.6692992,
+    "lon": -58.3810965
+  },
+  "tags": {
+    "brand": "Full",
+    "brand:wikidata": "Q126681765",
+    "building": "yes",
+    "name": "Full",
+    "shop": "convenience"
+  }
+}
+
+  ]
+}

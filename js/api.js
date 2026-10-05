@@ -81,6 +81,8 @@ class SupabaseApi {
   ownTracksUrl() { return `${this.url}/functions/v1/owntracks`; }
 }
 
+import { PRELOADED_PLACES } from "./avellaneda.js";
+
 // ---------------------------------------------------------------------
 // Demo (localStorage) — mismo comportamiento que el servidor
 // ---------------------------------------------------------------------
@@ -109,6 +111,12 @@ class DemoApi {
   seed() {
     this.db = { seq: {}, adminPin: "246810", blacklist: DEFAULT_BLACKLIST, groups: [], places: [], events: [],
                 points: [], tracks: [], sessions: {} };
+    for (const x of PRELOADED_PLACES) {
+      const isBl = DEFAULT_BLACKLIST.some(b => x.name.toLowerCase().includes(b.toLowerCase()));
+      if (!isBl) {
+        this.db.places.push({ id: this.seq("p"), ...x, status: "pendiente", note: null, status_at: null, status_group: null, created_group: null });
+      }
+    }
     this.save();
     return this.db;
   }
