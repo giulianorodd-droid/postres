@@ -518,7 +518,6 @@ async function searchHere() {
   if (S.map.getZoom() < 14.5) return toast("Acercá un poco más el mapa para buscar en esta zona");
   const b = S.map.getBounds();
   const bbox = [b.getWest(), b.getSouth(), b.getEast(), b.getNorth()];
-  const btn = $("btn-search");
   btn.disabled = true;
   btn.textContent = "Buscando…";
   try {
@@ -783,7 +782,6 @@ function bindUI() {
   $("btn-add").onclick = () => setAddMode(true);
   $("btn-add-cancel").onclick = () => setAddMode(false);
   $("btn-add-confirm").onclick = confirmAdd;
-  $("btn-search").onclick = searchHere;
 
   document.querySelectorAll("#trail-filter button").forEach((b) => (b.onclick = () => {
     S.range = b.dataset.range;
