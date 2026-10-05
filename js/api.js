@@ -1,6 +1,7 @@
 // Capa de datos: Supabase (real) o Demo (todo en este navegador, para probar sin cuentas).
 import { CONFIG } from "./config.js";
 import { uniqueRandomColor } from "./colors.js";
+import { PRELOADED_PLACES } from "./avellaneda.js";
 
 export const ERRORS = {
   PIN_INCORRECTO: "PIN incorrecto",
@@ -81,7 +82,7 @@ class SupabaseApi {
   ownTracksUrl() { return `${this.url}/functions/v1/owntracks`; }
 }
 
-import { PRELOADED_PLACES } from "./avellaneda.js";
+
 
 // ---------------------------------------------------------------------
 // Demo (localStorage) — mismo comportamiento que el servidor
