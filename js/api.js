@@ -112,7 +112,7 @@ class DemoApi {
   seed() {
     this.db = { seq: {}, adminPin: "246810", blacklist: DEFAULT_BLACKLIST, groups: [], places: [], events: [],
                 points: [], tracks: [], sessions: {} };
-    const OMITIR = ["restaurant", "cafe", "fast_food", "bar", "pub"];
+    const OMITIR = ["restaurant", "cafe", "fast_food", "bar", "pub", "hospital", "police"];
     for (const x of PRELOADED_PLACES) {
       if (OMITIR.includes(x.category)) continue;
       const isBl = DEFAULT_BLACKLIST.some(b => x.name.toLowerCase().includes(b.toLowerCase()));
