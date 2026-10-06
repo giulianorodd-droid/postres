@@ -17,7 +17,7 @@ export const CATEGORIES = {
   greengrocer: "Verdulería",
   coffee: "Café",
   food: "Comercio de alimentos",
-  otro: "Otro",
+  club_deportivo: "Club / Cancha", otro: "Otro",
 };
 
 const AMENITIES = ["cafe", "restaurant", "fast_food", "ice_cream", "bar", "pub"];
