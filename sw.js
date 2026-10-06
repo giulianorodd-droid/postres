@@ -1,5 +1,5 @@
 // Service worker: la app abre sin señal y los mapas ya vistos quedan guardados.
-const VERSION = "mv-v4";
+const VERSION = "mv-v5";
 const SHELL = [
   "./", "index.html", "css/styles.css", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png", "icons/icon-512.png",
   "js/app.js", "js/api.js", "js/config.js", "js/colors.js", "js/geo.js", "js/overpass.js", "js/avellaneda.js",

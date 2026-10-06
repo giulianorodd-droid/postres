@@ -17,7 +17,15 @@ export const CATEGORIES = {
   greengrocer: "VerdulerÃ­a",
   coffee: "CafÃ©",
   food: "Comercio de alimentos",
-  club_deportivo: "Club / Cancha", otro: "Otro",
+     club_deportivo: "Club / Cancha",
+  school: "Escuela / Colegio",
+  university: "Universidad",
+  hospital: "Hospital / Clínica",
+  place_of_worship: "Iglesia / Templo",
+  police: "Comisaría",
+  fire_station: "Bomberos",
+  community_centre: "Centro Comunitario / Sindicato",
+  otro: "Otro",
 };
 
 const AMENITIES = ["cafe", "restaurant", "fast_food", "ice_cream", "bar", "pub"];
